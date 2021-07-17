@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Garamond", sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-image: url('Maisvidas.jpeg.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.clear{
+    clear:both;
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    padding: 0.2%;
+    height: 60px;
+    background-color: #BBBBBB;
+}
+
+.header img{
+    height: 60px;
+    margin-left: 9px;
+}
+
+.container-banner{
+    width: 100%;
+    padding: 0 2%;
+    height: 557px;
+}
+
+.container-banner .center{
+    height: 100%;
+}
+
+.form{
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    float: right;
+    position: relative;
+    top: -500px;
+    background-color: #f1f1f1;
+    border-width: 12px;
+    border-color: rgb(120, 120, 120, 0.5);
+    border-style: solid;
+    background-color: #f1f1f1;
+    background-clip: padding-box;
+}
+
+.form h2{
+    color: #141414;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color: #141414;
+    font-size: 17px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 45px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #ccc;
+}
+
+.input-container input[type=number]{
+    margin-top: 8px;
+    width: 344px;
+    height: 45px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #ccc;
+}
+
+.input-container input[type=text] :focus{
+    outline: 0;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: #f1f1f1;
+    font-size: 25px;
+    width: 280px;
+    height: 45px;
+    display: inline-block;
+    background-color: #666;
+    border-top: 0px;
+    border-right: 0ch;
+    border-left: 0;
+    cursor: pointer;
+    border-bottom: 5px solid #acacac;
+}
+
+.form input[type=submit]:hover{
+    background-color: #b1b1b1;
+}
+
+.container-list{
+    padding: 30px;
+    margin-top: 100px;
+    float: left;
+    width: 910px;
+    height: 500px;
+    background-color: rgba(87, 79, 81, 0.9);
+    font-size: 35px;
+    font-family:"Garamond", sans-serif;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 90px;
+    color:#f1f1f1;
+}
+
+.footer{
+    border-top: 2px solid #999999;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px){
+     .header{
+         height: auto;
+         width: 600px;
+         padding: 10px 0;
+         text-align: center;
+     }
+
+     .header img{
+        height: 185px ;
+        margin-left: -20px;
+    }
+
+    .container-banner{
+        width: 100%;
+        padding: 20 1%;
+        height: auto;
+        text-align: center;
+    }
+
+    .form{
+        max-width: 600px;
+        padding: 15px;
+        width: 600px;
+        height: auto;
+        float: left;
+        top: 5px;
+    }
+    
+    .container-list{
+        padding: 0px 0;
+        width: 585px;
+        display: inline-block;
+        max-width: 585px;
+        height: auto;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .container-list ul li{
+        margin-top: 30px;
+        color:#f1f1f1;
+    }
+
+    .input-container input[type=text]{
+        width: 100%;
+        height: 45px;
+    }
+
+    .input-container input[type=number]{
+        width: 100%;
+        height: 45px;
+    }
+
+    .form input[type=submit]{
+        max-width: 280px;
+        height: 45px;
+        width: 100%;
+    }
+
+    .footer{
+        border-top: 2px solid #999999;
+        padding: 10px;
+        word-break: normal;
+        color: whitesmoke;
+    }
+
+    .footer p{
+        margin: 1px 5px;
+        font-size: 15px;
+        text-align: center;
+        text-justify: auto;
+        margin-right: -200px;
+        
+    }
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
